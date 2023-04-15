@@ -63,7 +63,7 @@ const Dashboard = () => {
           </DashboardContainer>
         </React.Suspense>
 
-        <React.Suspense fallback={<DashboardContainerFallback title={t('Loading invoices')} />}>
+        {/* <React.Suspense fallback={<DashboardContainerFallback title={t('Loading invoices')} />}>
           <DashboardContainer
             title={t('Unpaid invoices')}
             viewAllRoute="/invoices"
@@ -71,7 +71,7 @@ const Dashboard = () => {
           >
             <PendingInvoices />
           </DashboardContainer>
-        </React.Suspense>
+        </React.Suspense> */}
       </Lists>
     </Layout>
   );

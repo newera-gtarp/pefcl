@@ -103,12 +103,12 @@ const Sidebar = () => {
       <ListItem to="/accounts" icon={<CreditCardRounded />} label={t('Accounts')} />
       <ListItem to="/transfer" icon={<SwapHoriz />} label={t('Transfer')} />
       <ListItem to="/transactions" icon={<Paid />} label={t('Transactions')} />
-      <ListItem
+      {/* <ListItem
         to="/invoices"
         icon={<Receipt />}
         label={t('Invoices')}
         countAtom={totalUnpaidInvoicesAtom}
-      />
+      /> */}
       <ListItem to="/deposit" icon={<Add />} label={t('Deposit')} />
       <ListItem to="/withdraw" icon={<Remove />} label={t('Withdraw')} />
     </List>

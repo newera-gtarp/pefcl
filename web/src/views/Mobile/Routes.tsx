@@ -14,7 +14,7 @@ const MobileRoutes = () => {
       <Route path={`${prefix}/accounts`} component={MobileAccountsView} />
       <Route path={`${prefix}/dashboard`} component={MobileDashboardView} />
       <Route path={`${prefix}/transfer`} component={MobileTransferView} />
-      <Route path={`${prefix}/invoices`} component={MobileInvoicesView} />
+      {/* <Route path={`${prefix}/invoices`} component={MobileInvoicesView} /> */}
     </>
   );
 };

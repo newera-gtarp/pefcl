@@ -54,7 +54,7 @@ const MobileDashboardView = () => {
           ))}
         </Stack>
 
-        <Heading4>{t('Unpaid invoices')}</Heading4>
+        {/* <Heading4>{t('Unpaid invoices')}</Heading4>
         <Stack spacing={2.5} overflow="hidden">
           {invoices.map((invoice) => (
             <InvoiceItem key={invoice.id} invoice={invoice} />
@@ -63,7 +63,7 @@ const MobileDashboardView = () => {
           {invoices.length <= 0 && (
             <Heading5>{t('There are currently no unpaid invoices!')}</Heading5>
           )}
-        </Stack>
+        </Stack> */}
       </Stack>
     </Box>
   );
