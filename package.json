@@ -38,5 +38,9 @@
   },
   "dependencies": {
     "i18next-parser": "^6.0.0"
+  },
+  "volta": {
+    "node": "16.20.0",
+    "yarn": "1.22.11"
   }
 }
